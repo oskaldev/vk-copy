@@ -1,0 +1,54 @@
+{
+    "compilerOptions": {
+        "target": "ES6",
+        "module": "ESNext",
+        "strict": true,
+        "jsx": "react-jsx",
+        "moduleResolution": "node",
+        "esModuleInterop": true,
+        "skipLibCheck": true,
+        "forceConsistentCasingInFileNames": true,
+        "baseUrl": ".",
+        "paths": {
+            "@components/*": [
+                "src/components/*"
+            ],
+            "@pages/*": [
+                "src/pages/*"
+            ],
+            "@common/*": [
+                "src/components/common/*"
+            ],
+            "@constans/*": [
+                "src/constans/*"
+            ],
+            "@fire/*": [
+                "src/firebase/*"
+            ],
+            "@hooks/*": [
+                "src/hooks/*"
+            ],
+            "@layout/*": [
+                "src/layout/*"
+            ],
+            "@routing/*": [
+                "src/routing/*"
+            ],
+            "@HOC/*": [
+                "src/HOC/*"
+            ],
+            "@helpers/*": [
+                "src/helpers/*"
+            ],
+            "@styles/*": [
+                "src/styles/*"
+            ],
+        }
+    },
+    "include": [
+        "src"
+    ],
+    "exclude": [
+        "node_modules"
+    ]
+}
